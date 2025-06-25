@@ -60,10 +60,10 @@ body { background: #7d7d7d; }
 /* ------------------------------------------------------------------ */
 header {
   position: relative;
-  height: 600px;
-  min-height: 0px;
+  min-height: 300px;
   width: 100%;
-  background: #161415 url(../images/header-background.jpg) no-repeat top center;
+  background: #161415 url(../images/header-background.jpg) no-repeat center;
+  background-position: center calc(50% + 90px);
   background-size: cover !important;
  -webkit-background-size: cover !important;
   text-align: center;
