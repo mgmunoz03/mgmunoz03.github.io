@@ -39,7 +39,7 @@
    ------------------------------------------------------------------ */
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
-      font: 78px/1.1em 'librebaskerville-bold', sans-serif;
+      font: 78px/1.1em librebaskerville-bold;
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
