@@ -993,7 +993,8 @@ properly.
 }
 
 /*  2. Misc -------------------------------------------------------- */
-
+.add-top {margin-top: 24px !important; }
+.half-top {margin-top: 12px !important; }
 .remove-bottom { margin-bottom: 0 !important; }
 .half-bottom { margin-bottom: 12px !important; }
 .add-bottom { margin-bottom: 24px !important; }
