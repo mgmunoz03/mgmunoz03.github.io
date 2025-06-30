@@ -148,7 +148,7 @@ body {
    font-weight: normal;
    font-size: 15px;
    line-height: 30px;
-	color: #838C95;
+	color: #272b2f;
 
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
@@ -735,7 +735,7 @@ input[type="checkbox"] { display: inline; }
 .row .six         { width: 50%; }
 .row .seven       { width: 58.33333%; }
 .row .eight       { width: 66.66667%; }
-.row .nine        { width: 75%; background: white; box-shadow: 12px 12px 10px rgba(0,0,0,0.4); border: 3px solid black; }
+.row .nine        { width: 75%; background: white; box-shadow: -4px 4px 9px rgba(0,0,0,0.4); border: 3px solid white; }
 .row .ten         { width: 83.33333%; }
 .row .eleven      { width: 91.66667%; }
 .row .twelve      { width: 100%; }
