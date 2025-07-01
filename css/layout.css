@@ -423,11 +423,11 @@ ul#nav li.current a { color: #fdb0c0; }
   margin-left: 35%;
   padding-left: 60px;
 }
-#resume .timeline-content h4 {
+#resume .timeline-content h3 {
   position: relative;
   padding-bottom: 1.8rem;
 }
-#resume .timeline-content h4::after {
+#resume .timeline-content h3::after {
   content: "";
   display: block;
   height: 3px;
