@@ -345,8 +345,8 @@ ul#nav li.current a { color: #cb1a1a; }
 }
 
 .button-section .button:hover {
-  background-color: #fdb0c0;
-  border-color: #fdb0c0;
+  background-color: #cb1a1a;
+  border-color: #cb1a1a;
 }
 
 .button-section [class*="col-"] .button:first-child {
