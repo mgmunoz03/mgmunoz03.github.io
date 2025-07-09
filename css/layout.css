@@ -223,7 +223,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #fdb0c0; }
+ul#nav li.current a { color: #cb1a1a; }
 
 .banner__content {
   padding: 5px;
