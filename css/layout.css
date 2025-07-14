@@ -309,7 +309,7 @@ ul#nav li.current a { color: #cb1a1a; }
 }
 .about-content .info-list li strong {
   font-family: 'opensans-bold', sans-serif;
-  color: #fdb0c0;
+  color: #cb1a1a;
   text-transform: uppercase;
   letter-spacing: .2rem;
   font-size: 1.5rem;
@@ -318,7 +318,7 @@ ul#nav li.current a { color: #cb1a1a; }
 .about-content .info-list li span {
   display: block;
   font-family: 'opensans-bold', sans-serif;
-  color: #FFFFFF;
+  color: #000000;
   font-size: 1.5rem;
   line-height: 1;
 }
