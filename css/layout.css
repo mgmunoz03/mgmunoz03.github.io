@@ -159,6 +159,8 @@ header .scrolldown a {
    -moz-transition: all .3s ease-in-out;
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
+
+   z-index: 100;
 }
 header .scrolldown a:hover { color: #687864; }
 
