@@ -70,7 +70,7 @@ header {
   overflow: hidden;
 }
 /*Make the background transparent*/
-header::after {
+/* header::after {
   content: "";
   position: absolute;
   top: 0;
@@ -79,7 +79,7 @@ header::after {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5); /* Adjust 0.5 for opacity */
   pointer-events: none;
-}
+} */
 
 
 /* vertically center banner section */
