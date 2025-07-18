@@ -539,7 +539,7 @@ dd { margin: 0 0 0 20px; }
 /*  5. Images  --------------------------------------------------------- */
 
 img {
-   max-width: 25%;
+   max-width: 100%;
    height: auto;
    border: 3px solid white;
    box-shadow: -12px 12px 10px rgba(0,0,0,0.4);

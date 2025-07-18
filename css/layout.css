@@ -682,7 +682,7 @@ ul#nav li.current a { color: #cb1a1a; }
 }
 .portfolio-item .item-wrap a {
    display: block;
-   cursor: pointer;
+   cursor: pointer; 
 }
 
 /* overlay */
