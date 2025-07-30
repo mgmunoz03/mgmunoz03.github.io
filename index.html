@@ -19,6 +19,7 @@
     ================================================== -->
    <link rel="stylesheet" href="css/default.css">
 	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/animations.css" />
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
 
@@ -59,11 +60,14 @@
 
       </nav> <!-- end #nav-wrap -->
 
-      <div class="row banner">
+      <!-- Black overlay covering the whole screen -->
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.35); z-index: 1; pointer-events: none;"></div>
+
+      <div class="row banner" style="position: relative; z-index: 2;">
          <div class="banner-text">
             <h1 class="responsive-headline">Micah Muñoz</h1>
-	    <h2 style = "text-shadow: 0px 2px 5px black;"> "But as for me and my household, we will serve the LORD" Josh 24:15. </h2>
-            <h3 style = "color:white;"> Computer Science | Benedictine College | XC&TF</h3>
+            <h2 style="text-shadow: 0px 2px 5px black;"> "But as for me and my household, we will serve the LORD" Josh 24:15. </h2>
+            <h3 style="color:white;"> Computer Science | Benedictine College | XC&TF</h3>
             <hr />
             <ul class="social">
                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -98,7 +102,7 @@
 	     <div class="eight columns push-1 add-bottom add-top" data-aos="fade-left" data-aos-duration="1000">    
                <p style="font: 1.3em opensans-regular; line-height: 1.6em;">
 		       Hi, I’m <span style = "font-weight: bold;">Micah Muñoz</span>, a Computer Science, Spanish, and Theology student at <a href ="https://www.benedictine.edu"><u style = "color: black;">Benedictine College</u></a>. 
-		       When I'm not running or in school, I spend time building the faith community on campus and leading men's groups. 
+		       When I'm not <span class ="wave">running</span> or in school, I spend time building the faith community on campus and leading men's groups. 
 		       I'm especially interested in expanding my skillset with software projects, learning about cloud services, and developing my programming skills. 
 		       On a cool evening, you’ll find me hanging with friends, having a campfire, and enjoying creation. 
 		       Reach out and let's connect!
@@ -110,7 +114,7 @@
 
       <div class="row about-content">
 
-         <div class="six columns tab-full " data-aos= "fade-up" data-aos-duration="2000">
+         <div class="six columns tab-full " data-aos= "fade-up" data-aos-duration="1250">
 
             <h3 style = "color: black; text-align: center;" >Profile</h3>
 		<div>
@@ -125,7 +129,7 @@
                   <strong>Academic Focus:</strong>
                   <span style="display: block; margin-top: 10px;">BS Computer Science</span>
                   <span style="display: block; margin-top: 10px;">BA Spanish</span>
-		  <span style="display: block; margin-top: 10px;">BA Theology</span>
+		            <span style="display: block; margin-top: 10px;">BA Theology</span>
                   <span style="display: block; margin-top: 10px;">Minor: Mathematics</span>
                </li>
                <li>
@@ -137,7 +141,7 @@
 	   <img style = "max-width:80%; height:auto; "alt="" src = "images/bcfront.jpg">
          </div>
 
-         <div class="six columns add-bottom" data-aos= "fade-up" data-aos-duration="2000">
+         <div class="six columns add-bottom" data-aos= "fade-up" data-aos-duration="1250">
 
             <h3 style = "color: black; text-align: center;" >Skills</h3>
 	    <div>
@@ -214,7 +218,12 @@
 					</div>
 					<div class = "timeline-content">
 						<h3>Benedictine College</h3>
-						<p>Hi there, this is a test</p>
+						<p>Applied networking skills to resolve disruptions in the network. Used <b>Netscout</b> hardware to test connections and pinpoint the issues. 
+                     Extensively used <b>Microsoft Visio</b> to create network diagrams and document the network infrastructure.
+                     Designed a new system for assigning mailboxes to incoming students using <b>Excel</b> spreadsheets.
+                     Assisted in the setup and configuration of new computers and devices for faculty and staff.
+                     Resolved hardware and software issues when they arose.
+                  </p>
 					</div>
 				</div>
 				
@@ -228,7 +237,11 @@
 					</div>
 					<div class = "timeline-content">
 						<h3>Benedictine College</h3>
-						<p>Hi there, this is a test</p>
+						<p>Designed and distributed fliers using <b>Canva</b> to encourage student participation. 
+                     <b>Organized fundraisers</b> with local businesses to promote community involvement and financial support.
+                     Contacted churches in Washington D.C. to arrange for 100+ students to participate in worship services during the March for Life.
+                     Led students throughout the trip in <b>community prayer</b> and reflection, fostering a sense of unity and purpose.
+                  </p>
 					</div>
 				</div>
 				
@@ -242,7 +255,11 @@
 					</div>
 					<div class = "timeline-content">
 						<h3>Benedictine College</h3>
-						<p>Hi there, this is a test</p>
+						<p>Guided students through under-division coursework using <b>Python, C, and Java</b>. 
+                     Taught the importance of <b>critical thinking</b> to reach a solution.
+                     Worked with students to understand the underlying concepts, especially in data analysis 
+                     and math coursework such as <b>Calculus</b>.
+                  </p>
 					</div>	
 				</div>
 				    
@@ -256,7 +273,11 @@
 					</div>
 					<div class = "timeline-content">
 						<h3>Chipotle</h3>
-						<p>Hi there, this is a test. Complete</p>
+						<p>Served with <b>expedience</b>, improving customer satisfaction and reduced wait time.
+                     Valued <b>communication</b> with team members to ensure an orderly workflow and high productivity.
+                     Focused on building a <b>tight-knit work environment</b> and dependable service.
+                     Guided new team members in protocol and demonstrated advantageous techniques. 
+                  </p>
 					</div>
 				</div>
 		 	    </div> 
@@ -278,7 +299,11 @@
 					</div>
 					<div class = "timeline-content">
 						<h3>Benedictine College</h3>
-						<p>Hi there, this is a test. Complete</p>
+						<p>While pursuing three degrees in <b>Computer Science, Spanish, and Theology</b>, 
+                     I find my time best spent investing in others and creating an outgoing, faith-filled, and positive environment.
+                     I am involved in <a href = "https://www.spo.org" style = "font-family: opensans-bold; color: rgba(0, 0, 0, 0.84);" >St. Paul's Outreach</a> where I encourage men in their faith and pursuit of God in their lives.
+                     I have participated for 4 years in <b>Cross Country and Track and Field</b>, with Personal Records of: 5k 15:29 and 8k 25:23.
+                     </p>
 					</div>
 				</div>
 		
@@ -292,7 +317,10 @@
 					</div>
 					<div class = "timeline-content">
 						<h3>Holy Family High School</h3>
-						<p>Hi there, this is a test. Complete</p>
+						<p>Graduated with <b>Honors</b> while participating in Concert Band, Cross Country and Track and Field.
+                     I volunteered to <b>lead retreats</b> throughout each year encouraging community and fostering personal growth.
+                     I actively participated in Scouts of America and earned the rank of <b>Eagle Scout</b>.
+                  </p>
 					</div>
 				</div>
 			    </div>
@@ -637,7 +665,7 @@
 <div class="volunteer-section">
    <div class="row section-intro">
       <div class="col-twelve">
-         <h4>Volunteer Projects</h4>
+         <h4>Volunteer</h4>
          <hr>
          <h3>Giving Back & Leading Change</h3>
       </div>
@@ -725,6 +753,7 @@
    <script src="js/magnific-popup.js"></script>
    <script src="js/doubletaptogo.js"></script>
    <script src="js/spin.js"></script>
+   <script src="js/wave.js"></script>
 
    <script src="js/init.js"></script>
 <script> AOS.init();</script>
