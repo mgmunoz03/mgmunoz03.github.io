@@ -541,8 +541,8 @@ dd { margin: 0 0 0 20px; }
 img {
    max-width: 100%;
    height: auto;
-   border: 3px solid white;
-   box-shadow: -12px 12px 10px rgba(0,0,0,0.4);
+   /* border: 3px solid white; */
+   box-shadow: -5px 5px 10px rgba(0,0,0,0.4);
    float: left;
 }
 img.pull-right { margin: 12px 0px 0px 18px; }

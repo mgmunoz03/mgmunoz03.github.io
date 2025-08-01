@@ -185,7 +185,7 @@ header .scrolldown a:hover { color: #687864; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #448330; }
+.opaque { background-color: #000000a3; }
 .banner__text { text-transform: none; }
 
 /* hide toggle button */
@@ -225,7 +225,10 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #000000; }
+ul#nav li.current a { color: #ffd7a4; }
+ul#nav li a:hover{
+    color: #000000;
+}
 
 .banner__content {
   padding: 5px;
@@ -1180,6 +1183,20 @@ ul#nav li.current a { color: #000000; }
 
 .volunteer-content h3{
   color: #b07e57;
+  font-size: 1.4em;
+  margin-bottom:0px;
+}
+
+.volunteer-content h1{
+  color: #333;
+  font-size: 1.3em;
+}
+.volunteer-content h1::after{
+  content: "";
+  display: block;
+  height: 3px;
+  width: 50px;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .volunteer-content p{
