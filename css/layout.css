@@ -1214,18 +1214,22 @@ ul#nav li a:hover{
   padding-top: 12rem;
   padding-bottom: 7.2rem;
 }
-#contact .section-intro h1 {
-  color: white;
+#contact .section-intro h4 {
+   font: 40px 'opensans-bold', sans-serif;
+   color: #EBEEEE;
+   margin-bottom: 6px;
 }
-#contact .section-intro h5 {
-  color: #495D40;
+#contact .section-intro h3{
+    font: 22px 'opensans-bold', sans-serif;
+    color:rgb(153, 150, 150);
+    /* margin-bottom: 40px; */
 }
 #contact .section-intro p {
   color: rgba(255, 255, 255, 0.7);
 }
 
 .contact-info {
-  margin: 4.8rem auto 0;
+  /* margin: 4.8rem auto 0; */
   font-family: "poppins-regular", sans-serif;
   font-size: 1.5rem;
   text-align: center;
@@ -1241,7 +1245,7 @@ ul#nav li a:hover{
   color: #FFFFFF;
 }
 .contact-info h5 {
-  color: #495D40;
+  color: #d2dacf;
 }
 
 #contact {
@@ -1252,7 +1256,7 @@ ul#nav li a:hover{
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #fdb0c0; }
+#contact a, #contact a:visited  { color: #23ce54; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -1263,22 +1267,7 @@ ul#nav li a:hover{
    margin-bottom: 6px;
 }
 #contact h1 span { display: none; }
-#contact h1:before {
-   font-family: 'FontAwesome';
-   content: "\f0e0";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #ebeeee;
-}
 
-#contact h4 {
-   font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
-   margin-bottom: 6px;
-}
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
@@ -1292,13 +1281,13 @@ ul#nav li a:hover{
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #fff;
+   color: #2d2c2c;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #444242; }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
@@ -1336,7 +1325,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #495D40;
+    color: #6d8065;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
